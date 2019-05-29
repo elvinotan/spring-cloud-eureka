@@ -10,7 +10,7 @@ Config Client</br>
 
 # how to
 1. Tambahkan @EnableEurekaServer pada SpringBootApplication class, dgn konfigursi ini menandakan bila server ini akan di gunakan sebagi eureka server</br>
-2.Buatlah bootstrap.properties selevel dengan application.properties. 
+2. Buatlah bootstrap.properties selevel dengan application.properties.</br> 
 ```
 spring.application.name=spring-eureka-server
 spring.profiles.active=dev
