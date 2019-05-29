@@ -17,7 +17,7 @@ spring.profiles.active=dev
 spring.cloud.config.uri=http://localhost:9080
 spring.cloud.config.failFast=false	
 ```
-Snippet di atas menjelaskan, server eurika ini bernama ```spring-eureka-server``` dan memiliki profile ```dev```, serta mengacu pada config server ```http://localhost:9080```.
+Snippet di atas menjelaskan, server eureka ini bernama ```spring-eureka-server``` dan memiliki profile ```dev```, serta mengacu pada config server ```http://localhost:9080```.
 
 # note
 Untuk konfigurasi app ini please refer to ```https://github.com/elvinotan/config/application.yml``` lalu cari berdasarkan application name</br>
