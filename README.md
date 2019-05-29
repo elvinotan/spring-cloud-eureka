@@ -10,6 +10,16 @@ Config Client</br>
 
 # How to
 1. Tambahkan @EnableEurekaServer pada SpringBootApplication class, dgn konfigursi ini menandakan bila server ini akan di gunakan sebagi eureka server</br>
+```
+@SpringBootApplication
+@EnableEurekaServer
+public class SpringEurekaServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringEurekaServerApplication.class, args);
+	}
+}
+```
 2. Buatlah bootstrap.yml sebagai pengganti application.properties.</br> 
 ```
 ---
